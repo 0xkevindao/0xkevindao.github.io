@@ -143,8 +143,13 @@ const setupEventListener = async () => {
               const signer = provider.getSigner();
               const connectedContract = new ethers.Contract(CONTRACT_ADDRESS, NftBase.abi, signer);
              let nftMinted = await connectedContract.totalSupply()
-              let price = 0;
-              
+              let price
+              try{
+                 if (nftMinted <= 1111){
+                    price = 0
+                 } else {
+                  price = 0
+                 }
 		      
                  console.log(`number to mint: ${number}`)
 		 console.log(`price: ${price}`)
@@ -163,7 +168,7 @@ const setupEventListener = async () => {
               console.log(`Minting ${number} NFTs..please wait`)
               await nftTxn.wait();
       
-              console.log(`Mined, see transaction: http://etherscan.io/tx/${nftTxn.hash}`);
+              console.log(`Mined, see transaction: http://rinkeby.etherscan.io/tx/${nftTxn.hash}`);
               getTotalNFTsMintedSoFar();
 
 	      } catch(error) {
