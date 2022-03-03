@@ -74,7 +74,7 @@ const connectWallet = async () => {
     console.log("Connected to chain " + chainId);
 
 // String, hex code of the chainId of the Rinkebey test network. Need to change this to 0x1 for Ethereum Mainnet
-    const rinkebyChainId = "0x4"; 
+    const rinkebyChainId = "0x1"; 
     if (chainId !== rinkebyChainId) {
 	  alert("You are not connected to the Ethereum Mainnet!");
     }
