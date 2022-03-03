@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-1{
+    background: #454545;
+}
+.section-1 .container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1440px;
+}
+.section-1 .container .main-container{
+    display: flex;
+    width: 100%;
+}
+.section-1 .container .main-container .box-1{
+    width: 100%;
+   
+}
+.section-1 .container .main-container .box-2{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.section-1 .container .main-container .box-1 .svg-box{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.section-1 .container .main-container .box-1 .svg-box .troid-icon,svg{ 
+  padding: 2px 0;
+  width: 35px;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+}
+.section-1 .container .main-container .box-1 .svg-box .troid-icon svg{
+    width: 25px; 
+    height: 25px;
+}
+.section-1 .container .main-container .box-1 .text{
+    color:#0070C0 ;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 21px;
+}
+.section-1 .container .main-container .box-1 .cont-text{
+     color: #FFFFFF;
+     font-family: 'Arial';
+     font-weight: bold;
+     font-size: 18px;
+     text-decoration: none;
+}
+.section-1 .container .main-container .box-2 .hadding-logo{
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 0 8px;
+}
+.section-1 .container .main-container .box-2 .dot-manu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    cursor: pointer;
+}
+.section-1 .container .main-container .box-2 .dot-manu .dot{
+    width: 10px;
+}
+.section-1 .container .main-container .box-2 .dot-manu .dot .dot-frant{
+    background: #93c47d;
+    padding: 2px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.section-1 .container .main-container .box-2 .dot-manu .dot .dot-two{
+    background: #93c47d;
+    padding: 3px;
+    border-radius: 50%;
+    margin: 4px;
+}
+.section-1 .container .hadding2{
+    color: #FFFFFF;
+    font-family: 'Arial Black';
+    font-weight: bolder;
+    font-size: 80px;
+    text-decoration: none;
+    padding: 30px 0;
+    text-align: center;
+    justify-content:  center;
+}
+.section-1 .container .hadding2 .span-color1,.link1{
+    color: #93c47d;
+    font-weight: bold;
+}
+.section-1 .container .pera1{
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    max-width: 1134px;  
+    margin-left: auto;
+    margin-right:  auto;
+    color: #FFFFFF;
+}
+.section-1 .container .padding-text{
+    padding-top: 30px;
+}
+.section-1 .container .pera1 .span-color1,.link1{
+    color: #93c47d;
+    font-weight: bold;
+}
+
+
+.section-1 .container .input-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    display:  block;
+}
+.section-1 .container .input-container .box{
+    width: 100%;
+    align-items: center;
+    margin-left: 0;
+    display:  block;
+    justify-content:  right;
+
+
+}
+.section-1 .container .input-container .box1{
+    width: 75%;
+}
+.section-1 .container .input-container .box .main-input{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+
+}
+.section-1 .container .input-container .box .main-input .input-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+.section-1 .container .input-container 
+.box .main-input .input-row .text1,.imput1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: transparent;
+    border: none;
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.section-1 .container .input-container 
+.box .main-input .input-row .input1{
+    color: #93c47d;
+}
+.section-1 .container .input-container 
+.box .main-input .hadding3{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+.section-1 .container .input-container 
+.box .main-input .hadding3 .color2{
+    color: #93c47d;
+}
+.section-1 .container .input-container 
+.box .button1{
+    display: block;
+    width: 40%;
+    padding: 1px;
+    border-radius: 20px;
+    background: #93c47d;
+    text-align: center;
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 24px;
+    margin: auto;
+
+}
+.section-1 .container .input-container 
+.box .button2{
+    display: block;
+    width: 40.0%;
+    padding: 1px;
+    border-radius: 8px;
+    background: #93c47d;
+    text-align: center;
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: ;
+    float: right;
+}
+
+.section-1 .container .input-container 
+.box .text-row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.section-1 .container .input-container 
+.box .text-row .value{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.section-1 .container .input-container 
+.box .hadding4{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 24px;
+    color: #93c47d;
+    text-align: right;
+}
+
+.section-2 .container{
+    width: 100%;
+    color: #454545;
+}
+.section-2 .container .Image{
+    display: block;
+    margin-left:  auto;
+    margin-right:  auto;
+    width: 25%;
+    object-fit: cover;
+    object-position: center;
+    justify-content: center;
+    background: #454545;
+}
+
+@media screen and (max-width:767px){
+    .section-1 .container{
+        width: 97%;
+        padding: 10px;
+    }
+    .section-1 .container .main-container{
+        flex-direction: column-reverse;
+    }
+    .section-1 .container .main-container .box-1{
+        width: 100%;
+    }
+    .section-1 .container .main-container .box-2{
+        width: 100%;
+        justify-content: left;
+    }
+    .section-1 .container .main-container .box-2 .dot-manu{
+        width: 44%;
+        justify-content: right;
+    }
+    .section-1 .container .main-container .box-1 .text{
+        font-size: 18px;
+        padding: 0 5px;
+    }
+    .section-1 .container .hadding2{
+        font-size: 40px;
+        padding: 20px 0;
+        text-align: left;
+        justify-content:  center;
+    }
+    .section-1 .container .pera1{
+        font-size: 24px;
+        text-align: left;
+        max-width: 100%;  
+    }
+    .section-1 .container .padding-text{
+        padding-top: 20px;
+    }
+    .section-1 .container .input-container .box .main-input{
+        width: 100%;
+    }
+    .section-1 .container .input-container{
+        flex-direction: column;
+    }
+    .section-1 .container .input-container .box{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .section-1 .container .input-container 
+    .box .button1{
+        width: 25%;
+        padding: 3px;
+        float: auto;
+    }
+    .section-1 .container .input-container 
+    .box .text-row{
+        width: 100%;
+    }
+    .section-1 .container .input-container 
+    .box .hadding4{
+        text-align: right;
+    }
+    .section-1 .container .main-container .box-1 .svg-box{
+        margin-top: 10px;
+    }
+}
